@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap');
+@import "tailwindcss";
+.container1{
+    width: 90%;
+    margin: 0 auto;
+}
+*{
+  font-family: "TASA Explorer", sans-serif;
+}
+@theme {
+  --breakpoint-xs: 300px; 
+  --breakpoint-xr: 450px; 
+}

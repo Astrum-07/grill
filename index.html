@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>grill</title>
-</head>
-<body>
-    <h1>Hello world</h1>
-</body>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="container1">
+        <nav class="flex justify-between items-center h-[80px]">
+          <nav class="flex items-center gap-[20px] lg:hidden">
+            <i class="fa-solid fa-bars text-2xl"></i>
+            <p class="xr:flex xs:hidden">Все разделы</p>
+          </nav>
+          <nav>
+            <ul class="flex gap-[30px] text-[16px] lg:flex xs:hidden">
+              <li><a href="#">Состав работ</a></li>
+              <li><a href="#">Рассчитать</a></li>
+              <li><a href="#">Наши работы</a></li>
+              <li><a href="#">Видеообзор</a></li>
+              <li><a href="#">Отзывы</a></li>
+            </ul>
+          </nav>
+          <nav class="flex gap-[30px] items-center">
+            <p><a href="tel:+7 333 333 33 33">+7 333 333 33 33</a></p>
+            <button
+              class="w-[202px] h-12 px-8 py-3 rounded-[43px] shadow-[0_2px_8px_0_rgba(98,31,42,0.15) bg-[rgb(99,31,42)] font-medium text-base text-white xs:hidden md:flex"
+            >
+              Заказать звонок
+            </button>
+          </nav>
+
+          <nav class="flex gap-[20px] lg:hidden xr:gap-[20px] xs:gap-[10px]">
+            <button class="w-9 h-9 rounded-[50%] bg-[rgb(99,31,42)] text-[white]"><i class="fa-brands fa-whatsapp"></i></button>
+            <button class="w-9 h-9  rounded-[50%] bg-[rgb(99,31,42)] text-[white]"><i class="fa-brands fa-telegram"></i></button>
+          </nav>
+        </nav>
+      </div>
+    </header>
+    <!-- header end-->
+
+    <!-- showcase start -->
+    <section
+      class="bg-[url(/img/showcase.svg)] h-full w-full bg-cover"
+    ></section>
+  </body>
 </html>
