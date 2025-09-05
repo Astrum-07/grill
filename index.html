@@ -8,12 +8,11 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-
     />
   </head>
   <body>
     <!-- header start -->
-    <header>
+    <header class="shadow-[4px_4px_20px_black]  sticky">
       <div class="container1">
         <nav class="flex justify-between items-center h-[80px]">
           <nav class="flex items-center gap-[20px] lg:hidden">
@@ -39,8 +38,16 @@
           </nav>
 
           <nav class="flex gap-[20px] lg:hidden xr:gap-[20px] xs:gap-[10px]">
-            <button class="w-9 h-9 rounded-[50%] bg-[rgb(99,31,42)] text-[white]"><i class="fa-brands fa-whatsapp"></i></button>
-            <button class="w-9 h-9  rounded-[50%] bg-[rgb(99,31,42)] text-[white]"><i class="fa-brands fa-telegram"></i></button>
+            <button
+              class="w-9 h-9 rounded-[50%] bg-[rgb(99,31,42)] text-[white]"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </button>
+            <button
+              class="w-9 h-9 rounded-[50%] bg-[rgb(99,31,42)] text-[white]"
+            >
+              <i class="fa-brands fa-telegram"></i>
+            </button>
           </nav>
         </nav>
       </div>
@@ -49,7 +56,16 @@
 
     <!-- showcase start -->
     <section
-      class="bg-[url(/img/showcase.svg)] h-full w-full bg-cover"
-    ></section>
+      class="bg-[url('/img/showcase.svg')] h-[830px] w-full bg-cover bg-no-repeat"
+    >
+    <div class="container1">
+         <div class=" pt-96 ">
+             <div class="bg-[rgba(55,62,70,0.3)] w-[781px] h-[369px] p-10 rounded-[20px] flex flex-col gap-[30px] ">
+        <h1 class="font-semibold text-[110px] leading-[100%] tracking-[-0.04em] text-[#fffff0]">Премиальные <br> гриль-кухни</h1>
+      <p class="font-semibold text-2xl text-[#fffff0]">Проектирование. Изготовление. Установка.</p>
+      </div>
+         </div>
+    </div>
+    </section>
   </body>
 </html>
