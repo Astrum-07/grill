@@ -12,4 +12,7 @@
   --breakpoint-xr: 450px; 
 
 }
+html {
+  scroll-behavior: smooth;
+}
 
